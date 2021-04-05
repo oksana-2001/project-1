@@ -1,0 +1,23 @@
+.social__list {
+	position: absolute;
+  
+	left: 1092px;
+	top: 49px;
+	right: 274px;
+	width: 190px;
+	margin-bottom: 61px;
+  }
+  
+  .social__item {
+	display: inline-block;
+	margin-right: 10px;
+	width: 36px;
+	height: 36px;
+  }
+  .social__item:last-child {
+	margin-right: 0;
+  }
+  .social__item:hover {
+	background: #ffffff;
+	border-radius: 50%;
+  }

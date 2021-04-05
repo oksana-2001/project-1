@@ -1,0 +1,25 @@
+.route {
+	position: relative;
+	width: 511px;
+	height: 330px;
+	margin-bottom: 246px;
+	left: 389px;
+	line-height: 1.9;
+  }
+  .route__title {
+	font-size: 72px;
+	font-weight: bold;
+	line-height: 1.41;
+	margin-bottom: 27.5px;
+	width: 511px;
+	height: 197px;
+	top: 196px;
+  }
+  .route__text {
+	font-size: 18px;
+	top: 420px;
+	line-height: 1.49;
+	width: 196px;
+	height: 20px;
+	margin-bottom: 33.5px;
+  }

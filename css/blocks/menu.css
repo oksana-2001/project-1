@@ -1,0 +1,27 @@
+.menu {
+  display: flex;
+	margin-left: 79px;
+ 
+}
+
+.menu__list{
+  display: flex;
+  
+}
+.memu__item {
+	display: inline-block;
+
+  margin-right: 54px;
+	cursor: pointer;
+  
+  }
+  .memu__item:last-child {
+	margin-right: 0;
+  }
+  .menu__link {
+	font-size: 14px;
+	text-decoration: none;
+  }
+  .menu__link:hover {
+	color: lightskyblue;
+  }
