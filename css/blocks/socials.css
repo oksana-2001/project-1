@@ -1,23 +1,30 @@
 .social__list {
-	position: absolute;
+    display: flex;
+	align-items: flex-end;
+	width: 174px;
+	height: 36px;
+	margin-left: 274px;
+	margin-right: auto;
+	
+	
+	
+}
   
-	left: 1092px;
-	top: 49px;
-	right: 274px;
-	width: 190px;
-	margin-bottom: 61px;
-  }
-  
-  .social__item {
-	display: inline-block;
+.social__item {
+	
+	
+	
 	margin-right: 10px;
 	width: 36px;
 	height: 36px;
-  }
-  .social__item:last-child {
+
+}
+  
+.social__item:last-child {
 	margin-right: 0;
-  }
-  .social__item:hover {
+}
+
+.social__item:hover {
 	background: #ffffff;
 	border-radius: 50%;
-  }
+}

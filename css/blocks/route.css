@@ -1,19 +1,26 @@
 .route {
-	position: relative;
-	width: 511px;
+	min-width:1141px;
 	height: 330px;
-	margin-bottom: 246px;
-	left: 389px;
-	line-height: 1.9;
+	margin-bottom: 221px;
+    line-height: 1.9;
   }
+
+.route__container{
+	width: 1141px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	
+
+}
   .route__title {
 	font-size: 72px;
 	font-weight: bold;
-	line-height: 1.41;
-	margin-bottom: 27.5px;
+	line-height: 1.1;
 	width: 511px;
 	height: 197px;
-	top: 196px;
+	
+	
   }
   .route__text {
 	font-size: 18px;
@@ -23,3 +30,5 @@
 	height: 20px;
 	margin-bottom: 33.5px;
   }
+
+ 

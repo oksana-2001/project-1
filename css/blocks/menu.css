@@ -1,15 +1,18 @@
 .menu {
   display: flex;
 	margin-left: 79px;
+  
  
 }
 
 .menu__list{
   display: flex;
+  padding-top: 24px;
   
 }
 .memu__item {
 	display: inline-block;
+  
 
   margin-right: 54px;
 	cursor: pointer;
@@ -23,5 +26,6 @@
 	text-decoration: none;
   }
   .menu__link:hover {
-	color: lightskyblue;
+   color: #DA0100;
+
   }

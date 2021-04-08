@@ -1,13 +1,32 @@
-.button {
-	display: inline-block;
+.button{
+	display: flex;
     background: #f5170e;
 	border-radius: 35px;
-	padding: 18px 40px;
-	font-weight: bold;
+	width: 135px;
+	height: 55px;
+	align-items: center;
+	justify-content: center;
+    font-weight: bold;
 	color: #ffffff;
 	text-transform: uppercase;
 	text-decoration: none;
 	border: 2px solid #f5170e;
+  }
+
+  .button__header, .button__review{
+	display: flex;
+    background: #f5170e;
+	border-radius: 35px;
+	width: 168px;
+	height: 55px;
+	align-items: center;
+	justify-content: center;
+    font-weight: bold;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 2px solid #f5170e;
+
   }
   
   .button:hover {

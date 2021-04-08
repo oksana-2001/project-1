@@ -1,5 +1,5 @@
 html, body{
-	height: 100%;
+	min-height: 100vh;
 }
  
 body {
@@ -12,43 +12,43 @@ body {
 	-moz-osx-font-smoothing: grayscale;
   }
 .wrapper{
-	overflow: hidden;
-	min-width: 1141px;
-	min-height: 100%;
 	display: flex;
+	min-height: 100vh;
 	flex-direction: column;
 }
 
 .wrapper__content{
 	flex: 1;
-	margin: 0 auto;
-    width: 1141px;
+	
+	
     
-    background: url(img/hero.png) center top no-repeat,
-    url(img/bootom.png) center bottom no-repeat;
+    
+    background: url(../../img/hero.png) center top no-repeat,
+    url(../../img/bootom.png) center bottom no-repeat;
 }
 
-.header__container {
-	width: 1141px;
+.container {
+	max-width: 1141px;
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
 	margin: 0 auto;
 	
   }
 
-
-  
-  a {
+a {
 	color: inherit;
   }
-  ul {
+  
+ ul {
 	padding: 0;
 	margin: 0;
   }
-  ul li {
+  
+ ul li {
 	list-style: none;
   }
-  h1,
+  
+ h1,
   h2,
   h3,
   h4,
@@ -56,8 +56,9 @@ body {
   h6 {
 	margin: 0;
 	font-weight: normal;
-  }
-  * {
+}
+
+* {
 	box-sizing: border-box;
-  }
+}
   
