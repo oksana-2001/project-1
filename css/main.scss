@@ -1,0 +1,17 @@
+$containerWidht:940px;
+$baseFontSize:18px;
+
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&display=swap");
+@import "layout";
+
+@import "components/hero";
+@import "components/header";
+@import "components/bullets";
+@import "components/bullet";
+@import "components/btn";
+@import "components/section";
+@import "components/headline";
+@import "components/benefits";
+@import "components/benefit";

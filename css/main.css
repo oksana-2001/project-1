@@ -1,38 +1,247 @@
-@import url("./layout/normalize.css");
-@import url("./layout/base.css");
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&display=swap");
+html,
+body {
+  height: 100%;
+}
 
-@import url("./blocks/header.css");
-@import url("./blocks/logo.css");
-@import url("./blocks/menu.css");
-@import url("./blocks/contacts.css");
-@import url("./blocks/maincontent.css");
-@import url("./blocks/route.css");
-@import url("./blocks/botton.css");
-@import url("./blocks/offers.css");
-@import url("./blocks/news.css");
-@import url("./blocks/pagination.css");
-@import url("./blocks/review.css");
-@import url("./blocks/footer.css");
-@import url("./blocks/socials.css");
+body {
+  font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  color: #666666;
+}
 
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-width: 960px;
+  min-height: 100%;
+}
 
+.section {
+  height: 100%;
+}
 
+.container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+a {
+  color: inherit;
+}
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
 
+p {
+  padding: 0;
+  margin: 0;
+}
 
+*, ::after, ::before {
+  box-sizing: border-box;
+}
 
+.hero {
+  background: url("./../../img/arnaud-mesureur.png") top center no-repeat;
+  height: 652px;
+  color: #fff;
+}
 
+.hero__title-section {
+  width: 46%;
+}
 
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 24px 0 68.15px;
+}
 
+.hero__main-title {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: 17px;
+  text-transform: uppercase;
+}
 
+.hero__title-desc {
+  font-size: 21px;
+  margin-bottom: 39px;
+  padding-right: 10%;
+}
 
+.hero__icon-section {
+  display: flex;
+}
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.menu__list {
+  display: flex;
+  align-items: center;
+}
 
+.menu__item {
+  margin-right: 22px;
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
 
+.phone-namber {
+  font-size: 22px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
 
+.phone-namber__icon-elem {
+  width: 12.83px;
+  height: 13.78px;
+  margin-right: 5.6px;
+}
 
+.menu__link {
+  text-decoration: none;
+}
 
+.bullets {
+  display: flex;
+}
 
+.bullets__item {
+  margin-right: 33.15px;
+}
+.bullets__item:last-child {
+  margin-right: 0;
+}
+
+.bullet {
+  display: flex;
+}
+
+.bullet__icon {
+  width: 34.69px;
+  margin-right: 14.15px;
+}
+
+.bullet__txt {
+  font-size: 16px;
+  max-width: 90px;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 21px 41px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  line-height: 1;
+  text-decoration: none;
+}
+.btn--threme--yellow {
+  background: #FEDB3F;
+  color: #000;
+  margin-bottom: 64px;
+}
+.btn--threme--yellow:hover {
+  background: #FEDB3F;
+  color: #000;
+}
+
+.section {
+  height: 100vh;
+  min-height: 652px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.section__title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #292929;
+}
+
+.headline {
+  align-items: center;
+}
+
+.headline__title {
+  margin-bottom: 17px;
+}
+
+.headline__subtitle {
+  padding: 0 27%;
+}
+
+.benefits {
+  display: flex;
+}
+
+.benefits__item {
+  flex: 1;
+  margin: 0 3%;
+}
+.benefits__item:first-child {
+  margin-left: 0;
+}
+.benefits__item:last-child {
+  margin-left: 0;
+}
+
+.benefit {
+  text-align: center;
+}
+
+.benefit__image-wrapper {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  position: relative;
+  background: #F2F5F4;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.benefit__icon {
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
